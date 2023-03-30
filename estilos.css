@@ -1,0 +1,98 @@
+body {
+    background: #141E30; /* fallback for old browsers */
+    background: linear-gradient(to right, hsla(212, 40%, 24%, 0.801), hsla(219, 39%, 13%, 0.438)), url(/Images/fondocv.jpg); 
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Navbar*/
+.bnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.listanav{
+display: flex;
+width: 100%;
+justify-content: center;
+
+}
+
+.imgperfil{
+    width: 100px; height: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#nombre{
+    color: rgb(172, 209, 197);
+    font-family: 'Franklin Gothic Medium';
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+/*main*/
+#tituloperfil{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 30px;
+    color: rgb(172, 209, 197)
+}
+#Perfil{
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 1em;
+}
+
+#acercade{
+    font-family:'Franklin Gothic Medium';
+    font-size: 30px;
+    color: rgb(172, 209, 197)
+}
+
+#links {
+    list-style-type: disc;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+#links span {
+    color: rgb(204, 214, 189);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+#links2{
+font-size: 30px;
+list-style: none;
+display: flex;
+justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/*Redes*/
+.wapp , .insta {
+width: 25px; height: 25px;font-size: large; padding-left: 1cm;
+}
+.imageneslinks2{
+    width: 35px; height: 35px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(172, 209, 197)
+}
+button img{
+    
+    width: 70px; height: 50px;
+}
